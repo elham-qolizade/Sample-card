@@ -1,0 +1,85 @@
+body {
+    background-color: #f9eddf;
+}
+
+span {
+    color: gray;
+}
+
+.btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: white;
+    padding: 3%;
+    background-color: #f9d7d7;
+    width: 228px;
+    border: none;
+    border-radius: 3%;
+    cursor: pointer;
+}
+
+.right {
+    width: 47%;
+    height: 100%;
+    padding-left: 3%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 2%;
+}
+
+.left {
+    width: 53%;
+    height: auto;
+}
+
+.left img {
+    height: 100%;
+    width: 357px;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 405px;
+    width: 712px;
+}
+
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+}
+
+.tittle {
+    padding-right: 46%
+}
+
+.right-card span {
+    text-transform: uppercase;
+}
+
+.paragraph {
+    padding-right: 41%;
+    color: gray;
+}
+
+.dollor {
+    font-weight: 900;
+    font-size: 30px;
+    color: #bfa280
+}
+
+.money span {
+    font-size: 15px;
+}
+
+.btn:hover {
+    background-color: #bfa280;
+}
